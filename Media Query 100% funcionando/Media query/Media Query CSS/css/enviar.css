@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ overflow-x: hidden;
+}
+ 
+@media screen and (max-width: 1440px){
+
+
+    h1{ /* dados enviados com */
+
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute; 
+        left: 390px;
+        top: 130px; 
+        color: #000000;
+    } /* h2 h3 e h4 e abaixo do verificado */
+    
+    h2{
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute;
+        left: 330px;
+        top: 490px;
+    }
+    h3{
+    
+      font-size: 25px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute;
+        left: 330px;
+        top: 530px;
+    
+    }
+    
+    h4{
+    
+      font-size: 25px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute;
+        left: 330px;
+        top: 570px;
+    }
+     
+   
+header{
+        justify-content: center;
+    background: black;
+    width: 1460px;
+    height: 76px;
+    border-color: orange;
+      position: absolute;
+         left: 0px;
+        top: -1px;
+        z-index: 10;
+        
+} 
+#logo{
+       
+        width: 99px;
+        height: 76px;
+        right: 1200px;
+        margin-left: 590px;
+        border-color: orange;
+       
+    }
+    
+    
+          #verificado{
+            position: absolute;
+            top: -220px;
+            margin-left: -295px;
+            z-index: -10;
+             
+}
+
+.voltar{
+ 
+    margin-left: -50px;
+    z-index: 10;
+
+}
+      
+}
+     
+    @media screen and (max-width: 700px){
+      
+      h1{ /* dados enviados com */
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute; 
+        margin-left: -210px;
+        color: #000000;
+    } /* h2 h3 e h4 e abaixo do verificado */
+    h2{
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif; 
+        position: absolute;
+         top: 630px;
+         left: 100px;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif; 
+        font-size: 18px;
+        position: absolute;
+        left:150px;
+        top: 490px;
+    }
+    h4{
+        font-family: 'Roboto', sans-serif; 
+        font-size: 18px;
+        position: absolute;
+        left:150px;
+        top:550px;
+    }
+    a{
+        font-family: 'Roboto', sans-serif; 
+        font-size: 28px;
+        position: absolute;
+         margin-left: 20px;
+        margin-top: 90px;
+        color: orange;
+        text-decoration: none;
+    }
+    header{
+        justify-content: center;
+        background: black;
+        width: 1350px;
+        height: 76px;
+        border-color: orange;
+        position: absolute;
+        left: 0px;
+        top: -1px;
+        
+    } 
+      
+    #logo{
+       
+        width: 99px;
+        height: 76px;
+        margin-left: 290px;
+        border-color: orange;
+       
+      }
+      
+  
+    #verificado{
+            position: absolute;
+            margin-left: -600px;
+               z-index: -10;
+    }
+   
+}
